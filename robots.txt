@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://mike-tagne-3il.github.io/sitemap.xml

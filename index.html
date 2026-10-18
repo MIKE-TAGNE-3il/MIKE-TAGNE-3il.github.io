@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html lang="fr" class="no-js">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Mike Allan Tagne Fotso · DevOps &amp; infrastructure sécurisée</title>
+<meta name="description" content="Portfolio de Mike Allan Tagne Fotso, élève ingénieur en 5e année à 3iL Limoges. Infrastructure, supervision, authentification forte, IoT et lab DevOps, avec leur volet gouvernance. Stage de fin d'études dès février 2027.">
+<link rel="canonical" href="https://mike-tagne-3il.github.io/">
+<meta name="theme-color" content="#F5F5F7" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0B0C0F" media="(prefers-color-scheme: dark)">
+<meta name="color-scheme" content="light dark">
+<meta property="og:type" content="profile">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="Mike Allan Tagne Fotso · DevOps &amp; infrastructure sécurisée">
+<meta property="og:description" content="Infrastructure, supervision, authentification forte et lab DevOps, avec leur volet gouvernance. Stage de fin d'études dès février 2027.">
+<meta property="og:url" content="https://mike-tagne-3il.github.io/">
+<meta property="og:image" content="https://mike-tagne-3il.github.io/assets/img/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Mike Allan Tagne Fotso, élève ingénieur DevOps et infrastructure sécurisée">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+<link rel="preload" as="image" href="assets/img/portrait-800.webp" type="image/webp" imagesrcset="assets/img/portrait-480.webp 480w, assets/img/portrait-800.webp 800w" imagesizes="(max-width: 860px) 200px, 420px">
+<link rel="stylesheet" href="assets/css/styles.css">
+<script>document.documentElement.classList.replace('no-js','js')</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Person","name":"Mike Allan Tagne Fotso","jobTitle":"Élève ingénieur, DevOps et infrastructure sécurisée","email":"mailto:mikeallantagne@gmail.com","url":"https://mike-tagne-3il.github.io/","image":"https://mike-tagne-3il.github.io/assets/img/portrait-800.jpg","alumniOf":{"@type":"CollegeOrUniversity","name":"3iL Ingénieurs","address":"Limoges, France"},"sameAs":["https://www.linkedin.com/in/allan-mike-a49892256","https://github.com/MIKE-TAGNE-3il"]}
+</script>
+<style>.no-js .card__open,.no-js .card__more,.no-js .detail__fig,.no-js .sheet__head{display:none}.no-js .detail{margin-top:var(--s-5)}</style>
+</head>
+<body>
+<a class="skip" href="#projets">Aller aux projets</a>
+
+<nav class="nav" aria-label="Sections">
+  <div class="nav__list">
+    <span class="nav__ind" aria-hidden="true"></span>
+    <a href="#projets">Projets</a>
+    <a href="#lab">Lab<span class="long">&nbsp;DevOps</span></a>
+    <a href="#experience">Expérience</a>
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
+
+<main id="main">
+
+<!-- ================= ACCUEIL ================= -->
+<header class="hero" id="accueil">
+  <div class="wrap hero__grid">
+    <div class="hero__text">
+      <p class="eyebrow" data-enter>Élève ingénieur · 3iL Limoges · 5e année</p>
+      <h1 class="display" data-enter data-enter-lcp>Mike Allan <span>Tagne Fotso</span></h1>
+      <p class="hero__thesis" data-enter>J'<strong>automatise</strong>, je <strong>sécurise</strong> et je <strong>supervise</strong> des infrastructures, et je documente comment elles sont gouvernées.</p>
+      <p class="status" data-enter><i aria-hidden="true"></i>Stage de fin d'études · 4 à 6 mois · dès février 2027</p>
+      <div class="hero__cta" data-enter>
+        <a class="btn btn--primary" href="#projets">Voir les projets</a>
+        <button class="btn" type="button" data-copy>Copier l'e-mail</button>
+      </div>
+    </div>
+    <figure class="portrait" data-enter-photo>
+      <picture>
+        <source type="image/webp" srcset="assets/img/portrait-480.webp 480w, assets/img/portrait-800.webp 800w" sizes="(max-width: 860px) 200px, 420px">
+        <img src="assets/img/portrait-800.jpg" srcset="assets/img/portrait-480.jpg 480w, assets/img/portrait-800.jpg 800w" sizes="(max-width: 860px) 200px, 420px" width="800" height="1000" alt="Portrait de Mike Allan Tagne Fotso en costume bleu marine" fetchpriority="high">
+      </picture>
+    </figure>
+  </div>
+</header>
+
+<!-- ================= POSITIONNEMENT ================= -->
+<section class="section section--tight" aria-labelledby="pos-title">
+  <div class="wrap position" data-reveal>
+    <h2 class="position__lead" id="pos-title">Je construis des infrastructures, je les automatise et je les surveille. <span>Chaque projet documente aussi ses règles : flux autorisés, données personnelles, reprise après sinistre.</span></h2>
+    <div class="pillars">
+      <div class="pillar">
+        <svg viewBox="0 0 28 28" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 9h13M4 19h7"/><path d="M14 5l4 4-4 4"/><path d="M15 15l4 4-4 4"/><circle cx="23" cy="9" r="2"/><circle cx="23" cy="19" r="2"/></svg>
+        <h3 class="title3">Automatiser</h3>
+        <p>Pipelines CI/CD, infrastructure as code, conteneurs et GitOps.</p>
+      </div>
+      <div class="pillar">
+        <svg viewBox="0 0 28 28" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 3l9 3.5v7c0 5.5-3.8 9.8-9 11.5-5.2-1.7-9-6-9-11.5v-7z"/><path d="M10 14l3 3 5-6"/></svg>
+        <h3 class="title3">Sécuriser</h3>
+        <p>Segmentation réseau, VPN, PKI et authentification multifacteur.</p>
+      </div>
+      <div class="pillar">
+        <svg viewBox="0 0 28 28" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 15h5l3-8 5 15 3-7h6"/></svg>
+        <h3 class="title3">Superviser</h3>
+        <p>SIEM, détection d'intrusions, métriques, journaux et alertes.</p>
+      </div>
+    </div>
+    <div class="govband">
+      <strong>Gouverner</strong>
+      <p>Dans chaque projet : guides de l'ANSSI, ISO 27001, RGPD, plan de reprise et traçabilité.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ================= PROJETS ================= -->
+<section class="section section--tight" id="projets" aria-labelledby="projets-title">
+  <div class="wrap">
+    <div class="shead" data-reveal>
+      <p class="eyebrow">Projets phares</p>
+      <h2 class="large-title" id="projets-title">Quatre systèmes, chacun avec sa gouvernance.</h2>
+      <p>Ouvrez un projet pour voir son contexte, mon rôle, la démarche, les résultats, et le schéma en vue technique ou gouvernance.</p>
+    </div>
+
+    <div class="projects" data-reveal>
+
+<!-- ===== INFRASTRUCTURE ===== -->
+<article class="card" id="infrastructure" data-project>
+  <div class="card__thumb" data-thumb>
+    <svg class="dg" viewBox="0 0 560 420" role="img" aria-labelledby="dg-infra-t">
+      <title id="dg-infra-t">Deux sites Proxmox reliés par un tunnel IPsec, chacun avec pare-feu, VLAN et Active Directory ; accès nomades, PKI interne et sauvegarde. Vue gouvernance : cloisonnement, matrice de flux, plan de reprise.</title>
+      <g class="t"><text class="hd" x="22" y="38">LAB · DEUX SITES · PROXMOX VE</text></g>
+      <g class="g"><rect class="gbox" x="20" y="18" width="520" height="30" rx="9"/><text class="gt" x="280" y="37" text-anchor="middle">Matrice de flux écrite avant la configuration du pare-feu</text></g>
+      <rect class="zone" x="20" y="64" width="230" height="212" rx="16"/>
+      <rect class="zone" x="310" y="64" width="230" height="212" rx="16"/>
+      <text class="ti" x="36" y="88">Site A</text><text class="ti" x="326" y="88">Site B</text>
+      <g class="g"><rect class="gbox" x="118" y="74" width="120" height="20" rx="6"/><text class="gt" x="178" y="88" text-anchor="middle">moindre privilège</text></g>
+      <g class="g"><rect class="gbox" x="408" y="74" width="120" height="20" rx="6"/><text class="gt" x="468" y="88" text-anchor="middle">moindre privilège</text></g>
+      <rect class="n" x="40" y="102" width="190" height="40" rx="10"/><text class="tc" x="135" y="126" text-anchor="middle">OPNsense · pare-feu</text>
+      <rect class="n" x="330" y="102" width="190" height="40" rx="10"/><text class="tc" x="425" y="126" text-anchor="middle">OPNsense · pare-feu</text>
+      <rect class="chipz" x="40" y="156" width="58" height="30" rx="8"/><text class="tc" x="69" y="175" text-anchor="middle">Serveurs</text>
+      <rect class="chipz" x="106" y="156" width="58" height="30" rx="8"/><text class="tc" x="135" y="175" text-anchor="middle">Postes</text>
+      <rect class="chipz" x="172" y="156" width="58" height="30" rx="8"/><text class="tc" x="201" y="175" text-anchor="middle">Admin</text>
+      <rect class="chipz" x="330" y="156" width="58" height="30" rx="8"/><text class="tc" x="359" y="175" text-anchor="middle">Serveurs</text>
+      <rect class="chipz" x="396" y="156" width="58" height="30" rx="8"/><text class="tc" x="425" y="175" text-anchor="middle">Postes</text>
+      <rect class="chipz" x="462" y="156" width="58" height="30" rx="8"/><text class="tc" x="491" y="175" text-anchor="middle">Admin</text>
+      <rect class="gs no" x="172" y="156" width="58" height="30" rx="8"/><rect class="gs no" x="462" y="156" width="58" height="30" rx="8"/>
+      <rect class="gs risk" x="40" y="156" width="58" height="30" rx="8"/><rect class="gs risk" x="330" y="156" width="58" height="30" rx="8"/>
+      <rect class="gs ok" x="106" y="156" width="58" height="30" rx="8"/><rect class="gs ok" x="396" y="156" width="58" height="30" rx="8"/>
+      <rect class="n" x="40" y="204" width="190" height="52" rx="10"/><text class="ti" x="135" y="226" text-anchor="middle">Active Directory</text><text class="su" x="135" y="243" text-anchor="middle">DNS · DHCP · GPO</text>
+      <rect class="n" x="330" y="204" width="190" height="52" rx="10"/><text class="ti" x="425" y="226" text-anchor="middle">Active Directory</text><text class="su" x="425" y="243" text-anchor="middle">DNS · DHCP · GPO</text>
+      <path class="e flow" d="M230 122 H330"/><text class="su t" x="280" y="114" text-anchor="middle">IPsec IKEv2</text>
+      <path class="e" d="M230 230 H330" stroke-dasharray="3 4"/><text class="su" x="280" y="222" text-anchor="middle">réplication</text>
+      <g class="g"><rect class="gbox" x="240" y="100" width="80" height="20" rx="6"/><text class="gt" x="280" y="114" text-anchor="middle">bascule PRA</text></g>
+      <path class="e flow" d="M105 316 V276"/><text class="su t" x="112" y="300">RADIUS → AD</text>
+      <path class="e" d="M455 276 V316"/>
+      <rect class="n" x="20" y="316" width="170" height="52" rx="12"/><text class="ti" x="105" y="338" text-anchor="middle">Accès nomades</text><text class="su" x="105" y="355" text-anchor="middle">WireGuard · OpenVPN</text>
+      <rect class="n" x="205" y="316" width="150" height="52" rx="12"/><text class="ti" x="280" y="338" text-anchor="middle">PKI interne</text><text class="su" x="280" y="355" text-anchor="middle">AD CS · EJBCA</text>
+      <rect class="n" x="370" y="316" width="170" height="52" rx="12"/><text class="ti" x="455" y="338" text-anchor="middle">Sauvegarde 3-2-1</text><text class="su" x="455" y="355" text-anchor="middle">Proxmox Backup Server</text>
+      <g class="g"><rect class="gbox" x="20" y="378" width="170" height="24" rx="7"/><text class="gt" x="105" y="394" text-anchor="middle">un seul point de révocation</text></g>
+      <g class="g"><rect class="gbox" x="205" y="378" width="150" height="24" rx="7"/><text class="gt" x="280" y="394" text-anchor="middle">cycle des certificats</text></g>
+      <g class="g"><rect class="gbox" x="370" y="378" width="170" height="24" rx="7"/><text class="gt" x="455" y="394" text-anchor="middle">restauration testée</text></g>
+    </svg>
+  </div>
+  <div class="card__body">
+    <div class="card__meta"><span class="badge">Réseau · continuité</span><span class="badge">École + lab</span></div>
+    <h3 class="title2">Infrastructure d'entreprise multi-sites</h3>
+    <p class="subhead">Un réseau sécurisé pour 100 utilisateurs et 7 services, conçu en équipe à l'école puis reconstruit seul sur deux sites en lab.</p>
+    <p class="card__gov"><b>Gouvernance</b><span>Matrice de flux, PRA/PCA, RGPD</span></p>
+    <span class="card__more" aria-hidden="true">Voir le projet <svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 2l5 5-5 5"/></svg></span>
+  </div>
+  <button class="card__open" type="button" aria-haspopup="dialog">Ouvrir le projet Infrastructure d'entreprise multi-sites</button>
+
+  <div class="detail">
+    <header class="sheet__head">
+      <p class="eyebrow">Réseau &amp; continuité · 2024 → 2026</p>
+      <h2 class="title1" data-sheet-title>Infrastructure d'entreprise multi-sites</h2>
+      <p class="callout">Un réseau sécurisé conçu en équipe à l'école, puis reconstruit seul sur deux sites, avec annuaire, VPN, PKI et plan de reprise.</p>
+    </header>
+    <div class="detail__grid">
+      <figure class="detail__fig">
+        <div class="detail__figtop">
+          <span class="footnote">Architecture du lab</span>
+          <div class="lens" role="group" aria-label="Vue du schéma">
+            <span class="lens__ind" aria-hidden="true"></span>
+            <button type="button" aria-pressed="true" data-v="0">Technique</button>
+            <button type="button" class="g" aria-pressed="false" data-v="1">Gouvernance</button>
+          </div>
+        </div>
+        <div class="detail__canvas" data-slot></div>
+        <figcaption class="detail__legend footnote">Vue gouvernance : vert pour les flux ouverts, orange pour les flux filtrés, rouge pour les zones fermées par défaut.</figcaption>
+      </figure>
+      <div class="detail__text">
+        <div class="block">
+          <h4>Contexte et enjeu</h4>
+          <p>À 3iL, le projet SafeNet demande de concevoir le réseau d'une entreprise fictive, 3iLTech Solutions : 100 utilisateurs répartis dans 7 services, avec des exigences de sécurité et de conformité. J'ai ensuite reconstruit seul une infrastructure du même type sur mon serveur dédié, cette fois sur deux sites reliés par VPN.</p>
+        </div>
+        <div class="block">
+          <h4>Rôle</h4>
+          <div class="split2">
+            <div><h5>SafeNet · en équipe</h5><p>Déploiement et configuration de MariaDB, Exchange 2019 et GitLab CE. Dépannage Active Directory, DNS et pare-feu FortiGate sur l'environnement virtualisé.</p></div>
+            <div><h5>Lab · seul</h5><p>Conception et réalisation complètes : réseau, annuaire, VPN, services, PKI, sauvegarde et plan de reprise.</p></div>
+          </div>
+        </div>
+        <div class="block">
+          <h4>Démarche</h4>
+          <ul>
+            <li>Défense en profondeur : chaque zone (serveurs, postes, administration) a son VLAN et ses règles.</li>
+            <li>Plan d'adressage, schéma réseau et matrice de flux rédigés avant toute règle de pare-feu.</li>
+            <li>À l'école, FortiGate et pfSense. En lab, OPNsense applique la même logique de zones, sans licence commerciale.</li>
+            <li>Un annuaire unique interrogé par RADIUS : un compte désactivé perd aussi son accès VPN.</li>
+          </ul>
+        </div>
+        <div class="block block--gov">
+          <h4>Gouvernance <small>IT et données</small></h4>
+          <ul>
+            <li>Conformité alignée sur les guides de l'ANSSI, le RGPD et la LCEN, avec un DPO désigné dans l'équipe SafeNet.</li>
+            <li>Cloisonnement au moindre privilège entre VLAN, documenté dans la matrice de flux.</li>
+            <li>PRA/PCA rédigé puis simulé en lab : sinistre, bascule entre sites, reprise DNS et DHCP.</li>
+            <li>Sauvegarde 3-2-1 et cycle de vie des certificats géré par une PKI interne.</li>
+          </ul>
+          <div class="refs"><span class="ref">Guides ANSSI</span><span class="ref">RGPD</span><span class="ref">LCEN</span><span class="ref">ISO 27001 A.8.22</span><span class="ref">A.8.13</span><span class="ref">A.5.30</span></div>
+        </div>
+        <div class="block">
+          <h4>Résultats</h4>
+          <div class="results">
+            <div class="result"><b>100</b><span>utilisateurs et 7 services modélisés dans SafeNet</span></div>
+            <div class="result"><b>2 sites</b><span>reliés en IPsec, avec bascule testée en lab</span></div>
+            <div class="result"><b>3-2-1</b><span>sauvegarde automatisée, restauration éprouvée</span></div>
+          </div>
+        </div>
+        <div class="block">
+          <h4>Stack</h4>
+          <div class="stack"><span class="chip">Proxmox VE</span><span class="chip">FortiGate</span><span class="chip">pfSense</span><span class="chip">OPNsense</span><span class="chip">Windows Server 2022</span><span class="chip">Active Directory</span><span class="chip">FreeRADIUS</span><span class="chip">IPsec</span><span class="chip">WireGuard</span><span class="chip">Exchange 2019</span><span class="chip">MariaDB</span><span class="chip">GitLab CE</span><span class="chip">Nginx</span><span class="chip">Postfix</span><span class="chip">AD CS</span><span class="chip">EJBCA</span><span class="chip">Proxmox Backup Server</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</article>
+
+<!-- ===== SUPERVISION ===== -->
+<article class="card" id="supervision" data-project>
+  <div class="card__thumb" data-thumb>
+    <svg class="dg" viewBox="0 0 560 420" role="img" aria-labelledby="dg-sup-t">
+      <title id="dg-sup-t">Les journaux Windows, Linux et pare-feu remontent vers Wazuh et Suricata, le réseau vers Zabbix ; les alertes déclenchent une réponse automatisée. Vue gouvernance : techniques MITRE ATT&amp;CK couvertes et règles d'encadrement.</title>
+      <g class="t"><text class="hd" x="22" y="38">COLLECTE · CORRÉLATION · RÉPONSE</text></g>
+      <g class="g"><rect class="gbox" x="20" y="18" width="520" height="30" rx="9"/><text class="gt" x="280" y="37" text-anchor="middle">Couverture de détection rattachée à MITRE ATT&amp;CK</text></g>
+      <path class="e flow" d="M140 98 C170 98 170 120 200 120"/>
+      <path class="e flow" d="M140 154 C170 154 170 126 200 126"/>
+      <path class="e" d="M140 210 C170 210 170 132 200 132"/>
+      <path class="e flow" d="M140 210 C170 210 170 212 200 212"/>
+      <path class="e" d="M140 266 C170 266 170 288 200 288"/>
+      <path class="e flow" d="M350 122 H410"/>
+      <path class="e" d="M350 212 C384 212 380 132 410 132"/>
+      <path class="e flow" d="M475 148 V176"/>
+      <rect class="n" x="20" y="76" width="120" height="44" rx="11"/><text class="ti" x="80" y="103" text-anchor="middle">Windows</text>
+      <rect class="n" x="20" y="132" width="120" height="44" rx="11"/><text class="ti" x="80" y="159" text-anchor="middle">Linux</text>
+      <rect class="n" x="20" y="188" width="120" height="44" rx="11"/><text class="ti" x="80" y="215" text-anchor="middle">Pare-feu</text>
+      <rect class="n" x="20" y="244" width="120" height="44" rx="11"/><text class="ti" x="80" y="271" text-anchor="middle">Réseau · SNMP</text>
+      <rect class="n" x="200" y="90" width="150" height="64" rx="13"/><text class="ti" x="275" y="118" text-anchor="middle">Wazuh</text><text class="su" x="275" y="136" text-anchor="middle">SIEM · corrélation</text>
+      <rect class="n" x="200" y="184" width="150" height="56" rx="13"/><text class="ti" x="275" y="208" text-anchor="middle">Suricata</text><text class="su" x="275" y="225" text-anchor="middle">IDS / IPS</text>
+      <rect class="n" x="200" y="262" width="150" height="52" rx="13"/><text class="ti" x="275" y="285" text-anchor="middle">Zabbix · Grafana</text><text class="su" x="275" y="302" text-anchor="middle">disponibilité</text>
+      <rect class="gs gov" x="200" y="90" width="150" height="64" rx="13"/>
+      <rect class="gs gov" x="200" y="184" width="150" height="56" rx="13"/>
+      <rect class="n" x="410" y="96" width="130" height="52" rx="12"/><text class="ti" x="475" y="118" text-anchor="middle">Alertes</text><text class="su" x="475" y="135" text-anchor="middle">règles maison</text>
+      <rect class="n" x="410" y="176" width="130" height="52" rx="12"/><text class="ti" x="475" y="198" text-anchor="middle">Réponse auto</text><text class="su" x="475" y="215" text-anchor="middle">active response</text>
+      <g class="g"><rect class="gbox" x="410" y="238" width="130" height="40" rx="8"/><text class="gt" x="475" y="255" text-anchor="middle">périmètre écrit,</text><text class="gt" x="475" y="270" text-anchor="middle">décision humaine</text></g>
+      <g class="g"><rect class="gbox" x="410" y="290" width="130" height="22" rx="6"/><text class="gt" x="475" y="305" text-anchor="middle">T1110 force brute</text></g>
+      <g class="g"><rect class="gbox" x="410" y="318" width="130" height="22" rx="6"/><text class="gt" x="475" y="333" text-anchor="middle">T1046 découverte</text></g>
+      <g class="g"><rect class="gbox" x="20" y="300" width="120" height="40" rx="8"/><text class="gt" x="80" y="317" text-anchor="middle">journaux horodatés</text><text class="gt" x="80" y="332" text-anchor="middle">ISO A.8.15</text></g>
+      <g class="t"><text class="hd" x="22" y="398">WINDOWS · LINUX · PARE-FEU · RÉSEAU</text></g>
+      <g class="g"><text class="hd hd--gov" x="22" y="398">TRAÇABILITÉ · COUVERTURE MESURABLE</text></g>
+    </svg>
+  </div>
+  <div class="card__body">
+    <div class="card__meta"><span class="badge">Détection</span><span class="badge">École + lab</span></div>
+    <h3 class="title2">Supervision et détection d'intrusions</h3>
+    <p class="subhead">Une vue unique sur la disponibilité des services et les événements de sécurité de toute l'infrastructure.</p>
+    <p class="card__gov"><b>Gouvernance</b><span>Journalisation, couverture MITRE ATT&amp;CK</span></p>
+    <span class="card__more" aria-hidden="true">Voir le projet <svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 2l5 5-5 5"/></svg></span>
+  </div>
+  <button class="card__open" type="button" aria-haspopup="dialog">Ouvrir le projet Supervision et détection d'intrusions</button>
+
+  <div class="detail">
+    <header class="sheet__head">
+      <p class="eyebrow">Détection · 2024 → 2026</p>
+      <h2 class="title1" data-sheet-title>Supervision et détection d'intrusions</h2>
+      <p class="callout">Collecte des journaux, détection d'intrusions et suivi de disponibilité, avec des règles rattachées à MITRE ATT&amp;CK.</p>
+    </header>
+    <div class="detail__grid">
+      <figure class="detail__fig">
+        <div class="detail__figtop">
+          <span class="footnote">Chaîne de détection</span>
+          <div class="lens" role="group" aria-label="Vue du schéma">
+            <span class="lens__ind" aria-hidden="true"></span>
+            <button type="button" aria-pressed="true" data-v="0">Technique</button>
+            <button type="button" class="g" aria-pressed="false" data-v="1">Gouvernance</button>
+          </div>
+        </div>
+        <div class="detail__canvas" data-slot></div>
+        <figcaption class="detail__legend footnote">Vue gouvernance : techniques ATT&amp;CK couvertes et limites de la réponse automatisée.</figcaption>
+      </figure>
+      <div class="detail__text">
+        <div class="block">
+          <h4>Contexte et enjeu</h4>
+          <p>Dans SafeNet, la supervision complète l'infrastructure : collecte des journaux, détection d'intrusions et suivi de disponibilité, avec des scénarios d'alerte validés. En lab, j'ai reconstruit la chaîne seul et ajouté des règles de détection personnalisées avec réponse automatisée.</p>
+        </div>
+        <div class="block">
+          <h4>Rôle</h4>
+          <div class="split2">
+            <div><h5>SafeNet · en équipe</h5><p>Contribution à la chaîne Wazuh, Suricata, Zabbix et Grafana, et à la validation des scénarios d'alerte.</p></div>
+            <div><h5>Lab · seul</h5><p>Déploiement des agents, écriture des règles personnalisées, réponses automatisées et tableaux de bord.</p></div>
+          </div>
+        </div>
+        <div class="block">
+          <h4>Démarche</h4>
+          <ul>
+            <li>Trois sources distinctes : journaux systèmes (Wazuh), trafic réseau (Suricata), disponibilité (Zabbix).</li>
+            <li>Chaque alerte part d'un scénario d'attaque concret : force brute, balayage de ports, modification de fichiers sensibles.</li>
+            <li>Une réponse automatique seulement quand le scénario est sans ambiguïté, comme le blocage d'une adresse après une force brute.</li>
+          </ul>
+        </div>
+        <div class="block block--gov">
+          <h4>Gouvernance <small>IT</small></h4>
+          <ul>
+            <li>Journalisation centralisée et horodatée, base de la traçabilité et des investigations.</li>
+            <li>Chaque règle est rattachée à une technique MITRE ATT&amp;CK : la couverture de détection se mesure.</li>
+            <li>Le périmètre des réponses automatisées est écrit à l'avance. Le reste remonte à un humain.</li>
+          </ul>
+          <div class="refs"><span class="ref">ANSSI · Journalisation</span><span class="ref">MITRE ATT&amp;CK</span><span class="ref">ISO 27001 A.8.15</span><span class="ref">A.8.16</span><span class="ref">A.5.25</span></div>
+        </div>
+        <div class="block">
+          <h4>Résultats</h4>
+          <div class="results">
+            <div class="result"><b>3 couches</b><span>observées : systèmes, réseau, disponibilité</span></div>
+            <div class="result"><b>T1110 · T1046</b><span>force brute et découverte réseau détectées</span></div>
+            <div class="result"><b>Validées</b><span>alertes testées scénario par scénario</span></div>
+          </div>
+        </div>
+        <div class="block">
+          <h4>Stack</h4>
+          <div class="stack"><span class="chip">Wazuh</span><span class="chip">Suricata</span><span class="chip">Zabbix</span><span class="chip">Grafana</span><span class="chip">Syslog</span><span class="chip">SNMP</span><span class="chip">PowerShell</span><span class="chip">Bash</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</article>
+
+<!-- ===== AUTHFORTE ===== -->
+<article class="card" id="authforte" data-project>
+  <div class="card__thumb" data-thumb>
+    <svg class="dg" viewBox="0 0 560 420" role="img" aria-labelledby="dg-auth-t">
+      <title id="dg-auth-t">Parcours de connexion AuthForte : l'utilisateur passe par l'application Flask, qui vérifie un facteur parmi TOTP, OTP e-mail, badge NFC et WebAuthn. Vue gouvernance : résistance à l'hameçonnage de chaque facteur.</title>
+      <g class="t"><text class="hd" x="22" y="38">PARCOURS DE CONNEXION</text></g>
+      <g class="g"><rect class="gbox" x="20" y="18" width="520" height="30" rx="9"/><text class="gt" x="280" y="37" text-anchor="middle">ANSSI · authentification multifacteur · NIST SP 800-63B</text></g>
+      <path class="e flow" d="M130 208 H190"/>
+      <path class="e" d="M330 208 C366 208 364 104 400 104"/>
+      <path class="e" d="M330 208 C366 208 364 178 400 178"/>
+      <path class="e" d="M330 208 C366 208 364 252 400 252"/>
+      <path class="e flow" d="M330 208 C366 208 364 326 400 326"/>
+      <rect class="n" x="20" y="180" width="110" height="56" rx="12"/><text class="ti" x="75" y="205" text-anchor="middle">Utilisateur</text><text class="su" x="75" y="222" text-anchor="middle">navigateur</text>
+      <rect class="n" x="190" y="172" width="140" height="72" rx="14"/><text class="ti" x="260" y="204" text-anchor="middle">AuthForte</text><text class="su" x="260" y="222" text-anchor="middle">Flask · Blueprints</text>
+      <rect class="n" x="400" y="78" width="140" height="52" rx="12"/><rect class="gs no" x="400" y="78" width="140" height="52" rx="12"/>
+      <text class="ti" x="470" y="100" text-anchor="middle">TOTP</text><text class="su t" x="470" y="117" text-anchor="middle">RFC 6238 · 4 applis</text><text class="gt g fno" x="470" y="117" text-anchor="middle">hameçonnable</text>
+      <rect class="n" x="400" y="152" width="140" height="52" rx="12"/><rect class="gs no" x="400" y="152" width="140" height="52" rx="12"/>
+      <text class="ti" x="470" y="174" text-anchor="middle">OTP e-mail</text><text class="su t" x="470" y="191" text-anchor="middle">code à usage unique</text><text class="gt g fno" x="470" y="191" text-anchor="middle">hameçonnable</text>
+      <rect class="n" x="400" y="226" width="140" height="52" rx="12"/><rect class="gs risk" x="400" y="226" width="140" height="52" rx="12"/>
+      <text class="ti" x="470" y="248" text-anchor="middle">Badge NFC</text><text class="su t" x="470" y="265" text-anchor="middle">Web NFC · USB/IP</text><text class="gt g frisk" x="470" y="265" text-anchor="middle">selon le badge</text>
+      <rect class="n" x="400" y="300" width="140" height="52" rx="12"/><rect class="gs ok" x="400" y="300" width="140" height="52" rx="12"/>
+      <text class="ti" x="470" y="322" text-anchor="middle">WebAuthn / FIDO2</text><text class="su t" x="470" y="339" text-anchor="middle">Cryptonox · ECDSA</text><text class="gt g fok" x="470" y="339" text-anchor="middle">résistant</text>
+      <path class="gl" d="M260 244 V290"/>
+      <g class="g"><rect class="gbox" x="168" y="290" width="184" height="54" rx="10"/><text class="gt" x="260" y="312" text-anchor="middle">Serveur : clé publique seule</text><text class="gt" x="260" y="330" text-anchor="middle">aucune biométrie stockée</text></g>
+      <g class="t"><text class="hd" x="22" y="398">4 FAMILLES DE FACTEURS · 8 CONFIGURATIONS TESTÉES</text></g>
+      <g class="g"><circle class="fok" cx="27" cy="394" r="4"/><text class="su" x="37" y="398">résistant</text><circle class="frisk" cx="112" cy="394" r="4"/><text class="su" x="122" y="398">variable</text><circle class="fno" cx="192" cy="394" r="4"/><text class="su" x="202" y="398">exposé à l'hameçonnage</text></g>
+    </svg>
+  </div>
+  <div class="card__body">
+    <div class="card__meta"><span class="badge">Identité</span><span class="badge">Projet 3iL · labo XLIM</span></div>
+    <h3 class="title2">AuthForte</h3>
+    <p class="subhead">Une plateforme qui réunit quatre familles de facteurs d'authentification, du code à usage unique à la carte FIDO2.</p>
+    <p class="card__gov"><b>Gouvernance</b><span>Scrum avec un labo partenaire, facteurs choisis selon le risque</span></p>
+    <span class="card__more" aria-hidden="true">Voir le projet <svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 2l5 5-5 5"/></svg></span>
+  </div>
+  <button class="card__open" type="button" aria-haspopup="dialog">Ouvrir le projet AuthForte</button>
+
+  <div class="detail">
+    <header class="sheet__head">
+      <p class="eyebrow">Identité · 2025 → 2026</p>
+      <h2 class="title1" data-sheet-title>AuthForte</h2>
+      <p class="callout">Plateforme web d'authentification forte, menée en partenariat avec le laboratoire XLIM.</p>
+    </header>
+    <div class="detail__grid">
+      <figure class="detail__fig">
+        <div class="detail__figtop">
+          <span class="footnote">Parcours de connexion</span>
+          <div class="lens" role="group" aria-label="Vue du schéma">
+            <span class="lens__ind" aria-hidden="true"></span>
+            <button type="button" aria-pressed="true" data-v="0">Technique</button>
+            <button type="button" class="g" aria-pressed="false" data-v="1">Gouvernance</button>
+          </div>
+        </div>
+        <div class="detail__canvas" data-slot></div>
+        <figcaption class="detail__legend footnote">Vue gouvernance : chaque facteur classé selon sa résistance à l'hameçonnage.</figcaption>
+      </figure>
+      <div class="detail__text">
+        <div class="block">
+          <h4>Contexte et enjeu</h4>
+          <p>Projet de 4e année à 3iL, mené en partenariat avec le laboratoire XLIM. L'objectif était double : démontrer plusieurs méthodes d'authentification forte de façon pédagogique, et les implémenter avec une qualité de production.</p>
+        </div>
+        <div class="block">
+          <h4>Rôle</h4>
+          <p>Conception et développement de la plateforme, intégration du matériel (lecteur NFC, carte Cryptonox, YubiKey), documentation et livrables de sprint.</p>
+        </div>
+        <div class="block">
+          <h4>Démarche</h4>
+          <ul>
+            <li>Architecture Flask modulaire en Blueprints : un module par méthode, activable séparément.</li>
+            <li>TOTP selon la RFC 6238, testé sur Google Authenticator, Microsoft Authenticator, Authy et FreeOTP.</li>
+            <li>Carte Cryptonox via FIDO2/WebAuthn : signature ECDSA P-256 et commandes APDU.</li>
+            <li>Lecteur NFC redirigé par USB/IP vers une VM Windows Server 2022, puis tous les modules regroupés sur une VM autonome.</li>
+            <li>Problèmes résolus : redirection NFC, délais APDU dépassés, permissions des périphériques.</li>
+          </ul>
+        </div>
+        <div class="block block--gov">
+          <h4>Gouvernance <small>projet et IT</small></h4>
+          <ul>
+            <li>Trois sprints Scrum suivis dans Jira, avec un rapport à chaque fin de sprint.</li>
+            <li>Livrables remis : documentation technique, code annoté, VM de démonstration et poster scientifique.</li>
+            <li>Facteurs classés par résistance à l'hameçonnage, pour choisir selon le niveau de risque de l'accès.</li>
+            <li>Avec WebAuthn, le serveur ne garde qu'une clé publique. Aucune donnée biométrique n'est stockée.</li>
+          </ul>
+          <div class="refs"><span class="ref">ANSSI · MFA</span><span class="ref">NIST SP 800-63B</span><span class="ref">RFC 6238</span><span class="ref">W3C WebAuthn</span></div>
+        </div>
+        <div class="block">
+          <h4>Résultats</h4>
+          <div class="results">
+            <div class="result"><b>4</b><span>familles de facteurs intégrées</span></div>
+            <div class="result"><b>8</b><span>configurations testées de bout en bout</span></div>
+            <div class="result"><b>3</b><span>sprints livrés au partenaire</span></div>
+          </div>
+        </div>
+        <div class="block">
+          <h4>Stack</h4>
+          <div class="stack"><span class="chip">Python</span><span class="chip">Flask</span><span class="chip">WebAuthn</span><span class="chip">FIDO2</span><span class="chip">TOTP</span><span class="chip">Web NFC</span><span class="chip">USB/IP</span><span class="chip">VMware</span><span class="chip">Docker</span><span class="chip">Jira</span></div>
+        </div>
+        <p class="next"><b>Prochaine étape :</b> un test d'intrusion du parcours de connexion (rejeu d'OTP, force brute, facteur de secours).</p>
+        <p><a class="btn" href="https://github.com/MIKE-TAGNE-3il/Authentification-_forte" target="_blank" rel="noopener">Voir le code sur GitHub</a></p>
+      </div>
+    </div>
+  </div>
+</article>
+
+<!-- ===== HOMEBOX ===== -->
+<article class="card" id="homebox" data-project>
+  <div class="card__thumb" data-thumb>
+    <svg class="dg" viewBox="0 0 560 420" role="img" aria-labelledby="dg-hb-t">
+      <title id="dg-hb-t">Le téléphone authentifie l'utilisateur dans son enclave sécurisée, puis envoie une requête protégée au hub Raspberry Pi, qui déverrouille le boîtier ; un module NFC détecte la proximité. Vue gouvernance : la donnée biométrique ne quitte jamais le téléphone.</title>
+      <g class="t"><text class="hd" x="22" y="38">TÉLÉPHONE · HUB · BOÎTIER</text></g>
+      <g class="g"><rect class="gbox" x="20" y="18" width="520" height="30" rx="9"/><text class="gt" x="280" y="37" text-anchor="middle">Donnée biométrique · RGPD art. 9 · minimisation art. 5.1.c</text></g>
+      <rect class="n" x="24" y="70" width="150" height="270" rx="28"/>
+      <rect class="notch" x="79" y="80" width="40" height="5" rx="2.5"/>
+      <text class="ti" x="99" y="112" text-anchor="middle">Téléphone</text><text class="su" x="99" y="129" text-anchor="middle">Flutter · local_auth</text>
+      <rect class="chipz" x="44" y="146" width="110" height="98" rx="14"/>
+      <text class="tc" x="99" y="184" text-anchor="middle">Enclave</text><text class="tc" x="99" y="199" text-anchor="middle">sécurisée</text>
+      <text class="su" x="99" y="222" text-anchor="middle">gabarit</text><text class="su" x="99" y="234" text-anchor="middle">biométrique</text>
+      <rect class="gl" x="36" y="138" width="126" height="114" rx="18"/>
+      <text class="su" x="99" y="282" text-anchor="middle">authentification</text><text class="su" x="99" y="296" text-anchor="middle">locale</text>
+      <path class="e flow" d="M174 166 C212 166 214 162 252 162"/><text class="su t" x="213" y="152" text-anchor="middle">anti-rejeu</text>
+      <path class="e" d="M174 280 H252"/><text class="su t" x="213" y="272" text-anchor="middle">proximité</text>
+      <path class="e" d="M322 252 V196"/>
+      <path class="e flow" d="M392 162 C418 162 414 216 440 216"/><text class="su t" x="458" y="152" text-anchor="middle">déverrouillage</text>
+      <rect class="n" x="252" y="130" width="140" height="64" rx="13"/><text class="ti" x="322" y="158" text-anchor="middle">Hub</text><text class="su" x="322" y="176" text-anchor="middle">Raspberry Pi</text>
+      <rect class="n" x="252" y="252" width="140" height="56" rx="13"/><text class="ti" x="322" y="276" text-anchor="middle">Module NFC</text><text class="su" x="322" y="293" text-anchor="middle">PN532</text>
+      <rect class="n" x="440" y="170" width="100" height="92" rx="14"/><text class="ti" x="490" y="212" text-anchor="middle">Boîtier</text><text class="su" x="490" y="230" text-anchor="middle">verrou</text>
+      <g class="g"><rect class="gbox" x="252" y="94" width="140" height="24" rx="7"/><text class="gt" x="322" y="110" text-anchor="middle">droits par profil</text></g>
+      <g class="g"><rect class="gbox" x="430" y="274" width="120" height="40" rx="8"/><text class="gt" x="490" y="291" text-anchor="middle">échecs et</text><text class="gt" x="490" y="306" text-anchor="middle">récupération</text></g>
+      <g class="g"><rect class="gbox" x="20" y="352" width="300" height="40" rx="8"/><text class="gt" x="170" y="369" text-anchor="middle">le gabarit ne quitte jamais l'enclave</text><text class="gt" x="170" y="384" text-anchor="middle">protection dès la conception · art. 25</text></g>
+      <g class="t"><text class="hd" x="22" y="380">PROTOTYPE · ANDROID ET iOS</text></g>
+    </svg>
+  </div>
+  <div class="card__body">
+    <div class="card__meta"><span class="badge">IoT · données sensibles</span><span class="badge badge--live">En cours · livraison janvier 2027</span></div>
+    <h3 class="title2">Homebox</h3>
+    <p class="subhead">Plusieurs membres d'un foyer ouvrent le même boîtier connecté depuis leur téléphone, chacun avec ses propres droits.</p>
+    <p class="card__gov"><b>Gouvernance</b><span>RGPD art. 9, minimisation, pilotage avec le client</span></p>
+    <span class="card__more" aria-hidden="true">Voir le projet <svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 2l5 5-5 5"/></svg></span>
+  </div>
+  <button class="card__open" type="button" aria-haspopup="dialog">Ouvrir le projet Homebox</button>
+
+  <div class="detail">
+    <header class="sheet__head">
+      <p class="eyebrow">IoT &amp; données sensibles · sept. 2026 → janv. 2027</p>
+      <h2 class="title1" data-sheet-title>Homebox</h2>
+      <p class="callout">Authentification biométrique pour un boîtier domestique partagé. Projet de fin d'études en équipe, pour un client, en cours.</p>
+    </header>
+    <div class="detail__grid">
+      <figure class="detail__fig">
+        <div class="detail__figtop">
+          <span class="footnote">Architecture du prototype</span>
+          <div class="lens" role="group" aria-label="Vue du schéma">
+            <span class="lens__ind" aria-hidden="true"></span>
+            <button type="button" aria-pressed="true" data-v="0">Technique</button>
+            <button type="button" class="g" aria-pressed="false" data-v="1">Gouvernance</button>
+          </div>
+        </div>
+        <div class="detail__canvas" data-slot></div>
+        <figcaption class="detail__legend footnote">Vue gouvernance : la donnée sensible reste dans l'enclave du téléphone.</figcaption>
+      </figure>
+      <div class="detail__text">
+        <div class="block">
+          <h4>Contexte et enjeu</h4>
+          <p>Projet de fin d'études à 3iL, réalisé pour un client de septembre 2026 à janvier 2027. La biométrie est une donnée sensible au sens du RGPD : l'architecture doit permettre l'authentification sans jamais centraliser d'empreinte ni de visage.</p>
+        </div>
+        <div class="block">
+          <h4>Rôle</h4>
+          <p>Membre d'une équipe de 4. Le projet couvre l'application mobile, le hub, le module NFC et l'analyse RGPD.</p>
+        </div>
+        <div class="block">
+          <h4>Démarche</h4>
+          <ul>
+            <li>Authentification locale sur le téléphone (empreinte ou visage) via les API natives, avec Flutter pour Android et iOS.</li>
+            <li>Après l'authentification, la connexion au hub donne accès aux seules actions autorisées par le profil.</li>
+            <li>Hub sur Raspberry Pi, module NFC PN532 pour détecter la proximité du téléphone.</li>
+            <li>Canaux protégés contre le rejeu et l'interception, gestion des échecs et procédure de récupération d'accès.</li>
+          </ul>
+        </div>
+        <div class="block block--gov">
+          <h4>Gouvernance <small>données et projet</small></h4>
+          <ul>
+            <li>Analyse RGPD au titre de l'article 9 : la biométrie est une donnée sensible.</li>
+            <li>Minimisation par l'architecture : les gabarits restent dans l'enclave sécurisée du téléphone. Ni l'application ni le hub ne les reçoivent.</li>
+            <li>Modèle de rôles par profil du foyer, avec des droits distincts.</li>
+            <li>Projet piloté avec le client : charte graphique imposée, versionnement GitLab, stratégie de tests, documentation et guide utilisateur.</li>
+          </ul>
+          <div class="refs"><span class="ref">RGPD art. 5.1.c</span><span class="ref">art. 9</span><span class="ref">art. 25</span><span class="ref">ISO 27001 A.5.15</span></div>
+        </div>
+        <div class="block">
+          <h4>Résultats</h4>
+          <div class="results">
+            <div class="result"><b>0</b><span>donnée biométrique hors du téléphone, par conception</span></div>
+            <div class="result"><b>4</b><span>personnes dans l'équipe projet</span></div>
+            <div class="result"><b>Janv. 2027</b><span>livraison prévue au client</span></div>
+          </div>
+        </div>
+        <div class="block">
+          <h4>Stack</h4>
+          <div class="stack"><span class="chip">Flutter</span><span class="chip">Dart</span><span class="chip">local_auth</span><span class="chip">Raspberry Pi</span><span class="chip">PN532</span><span class="chip">GitLab</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ================= LAB DEVOPS ================= -->
+<section class="section section--tight" id="lab" aria-labelledby="lab-title">
+  <div class="wrap">
+    <div class="shead" data-reveal>
+      <p class="eyebrow">Lab DevOps · serveur dédié</p>
+      <h2 class="large-title" id="lab-title">Une chaîne complète, du commit à l'alerte.</h2>
+      <p>Trois projets personnels, hébergés sur mon serveur dédié, qui forment une seule chaîne de livraison.</p>
+    </div>
+
+    <div class="pipe" id="pipe">
+      <div class="pipe__track" aria-hidden="true"><div class="pipe__fill"></div></div>
+      <ol class="pipe__stages">
+        <li class="stage"><span class="stage__dot" aria-hidden="true">1</span><b>Code</b><span>Dépôt GitHub</span></li>
+        <li class="stage"><span class="stage__dot" aria-hidden="true">2</span><b>Intégration</b><span>Lint, tests, build, scan Trivy</span></li>
+        <li class="stage"><span class="stage__dot" aria-hidden="true">3</span><b>Registre</b><span>Images publiées sur GHCR</span></li>
+        <li class="stage"><span class="stage__dot" aria-hidden="true">4</span><b>Provisioning</b><span>Terraform et Ansible</span></li>
+        <li class="stage"><span class="stage__dot" aria-hidden="true">5</span><b>Déploiement</b><span>Docker, Traefik, K3s, ArgoCD</span></li>
+        <li class="stage"><span class="stage__dot" aria-hidden="true">6</span><b>Observabilité</b><span>Prometheus, Grafana, Loki</span></li>
+      </ol>
+    </div>
+
+    <div class="labgrid" data-reveal>
+      <article class="lab">
+        <p class="eyebrow">Étapes 1 à 4</p>
+        <h3 class="title3">CI/CD et infrastructure as code</h3>
+        <ul>
+          <li>Terraform provisionne le serveur chez Hetzner ; Ansible le durcit (SSH, pare-feu) et installe Docker.</li>
+          <li>Images Docker multi-étapes derrière Traefik, certificats Let's Encrypt automatiques.</li>
+          <li>GitHub Actions : lint, tests, build, scan Trivy, publication GHCR et déploiement continu.</li>
+          <li>Migrations de base de données dans un service dédié du Compose.</li>
+        </ul>
+        <div class="stack"><span class="chip">Terraform</span><span class="chip">Ansible</span><span class="chip">Docker</span><span class="chip">Traefik</span><span class="chip">GitHub Actions</span><span class="chip">Trivy</span></div>
+      </article>
+      <article class="lab">
+        <p class="eyebrow">Étape 5</p>
+        <h3 class="title3">Kubernetes et GitOps</h3>
+        <ul>
+          <li>Cluster K3s avec Ingress TLS géré par cert-manager.</li>
+          <li>Charts Helm pour les environnements staging et production.</li>
+          <li>ArgoCD : synchronisation automatique, auto-réparation et nettoyage.</li>
+          <li>NetworkPolicies, ResourceQuotas et scan des images avec Trivy.</li>
+        </ul>
+        <div class="stack"><span class="chip">K3s</span><span class="chip">Helm</span><span class="chip">ArgoCD</span><span class="chip">cert-manager</span><span class="chip">kube-prometheus-stack</span></div>
+      </article>
+      <article class="lab">
+        <p class="eyebrow">Étape 6</p>
+        <h3 class="title3">Observabilité de production</h3>
+        <ul>
+          <li>Prometheus, Node Exporter et cAdvisor pour les métriques système et conteneurs.</li>
+          <li>Journaux centralisés dans Loki, tableaux de bord Grafana.</li>
+          <li>Alertmanager vers Slack et Discord, avec un runbook par alerte.</li>
+          <li>Page de statut publique Uptime Kuma.</li>
+        </ul>
+        <div class="stack"><span class="chip">Prometheus</span><span class="chip">Grafana</span><span class="chip">Loki</span><span class="chip">Alertmanager</span><span class="chip">Uptime Kuma</span></div>
+      </article>
+    </div>
+
+    <div class="also" data-reveal>
+      <p class="eyebrow also__title">Autres projets</p>
+      <div class="labgrid">
+        <article class="lab">
+          <p class="eyebrow">Full-stack · 3iL</p>
+          <h3 class="title3">TalentBoard</h3>
+          <ul>
+            <li>Plateforme de recrutement : offres, candidatures et suivi.</li>
+            <li>Frontend Angular 17, API REST Spring Boot 3, base PostgreSQL.</li>
+            <li>Docker Compose et CI/CD GitHub Actions, déploiement sur Azure Kubernetes Service décrit en Terraform.</li>
+          </ul>
+          <div class="stack"><span class="chip">Angular</span><span class="chip">Spring Boot</span><span class="chip">PostgreSQL</span><span class="chip">AKS</span><span class="chip">Terraform</span></div>
+        </article>
+        <article class="lab">
+          <p class="eyebrow">Cloud · 3iL</p>
+          <h3 class="title3">Infrastructure Azure</h3>
+          <ul>
+            <li>Machines virtuelles et groupes de sécurité réseau (NSG).</li>
+            <li>Gestion des accès avec Azure IAM.</li>
+            <li>Supervision avec Azure Monitor. Déploiement réalisé depuis le portail Azure.</li>
+          </ul>
+          <div class="stack"><span class="chip">Azure VM</span><span class="chip">NSG</span><span class="chip">IAM</span><span class="chip">Azure Monitor</span></div>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= EXPÉRIENCE ================= -->
+<section class="section section--tight" id="experience" aria-labelledby="xp-title">
+  <div class="wrap">
+    <div class="shead" data-reveal>
+      <p class="eyebrow">Expérience</p>
+      <h2 class="large-title" id="xp-title">En production, dans une banque.</h2>
+    </div>
+    <div class="xp" data-reveal>
+      <div class="xp__when">
+        <b>Mai → août 2024</b>
+        <span class="footnote">4 mois · Douala, Cameroun</span>
+      </div>
+      <article class="xp__card">
+        <div class="xp__head">
+          <h3 class="title1">Afriland First Bank</h3>
+          <p class="headline">Stagiaire DevOps · volet sécurité du SI</p>
+          <p class="muted measure">Automatisation et déploiement de services digitaux bancaires, et contribution à la gestion des risques du système d'information.</p>
+        </div>
+        <div class="xp__cols">
+          <div class="block">
+            <h4>DevOps</h4>
+            <ul>
+              <li>Pipelines d'intégration et de déploiement continus avec Jenkins et GitLab CI.</li>
+              <li>Conteneurisation Docker et déploiement sur Kubernetes.</li>
+              <li>Supervision des services avec Prometheus et Grafana.</li>
+              <li>Gestion des secrets applicatifs dans les pipelines.</li>
+            </ul>
+          </div>
+          <div class="block block--gov">
+            <h4>Sécurité et risques</h4>
+            <p class="xp__fig"><b>120</b><span class="muted">actifs critiques couverts par l'analyse de risques ISO 27005</span></p>
+            <ul>
+              <li>Scans de vulnérabilités avec OpenVAS.</li>
+              <li>Cartographie du système d'information.</li>
+              <li>Rédaction de procédures de sécurité du SI.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="stack"><span class="chip">Jenkins</span><span class="chip">GitLab CI</span><span class="chip">Docker</span><span class="chip">Kubernetes</span><span class="chip">Prometheus</span><span class="chip">Grafana</span><span class="chip">ISO 27005</span><span class="chip">OpenVAS</span></div>
+      </article>
+    </div>
+
+    <div class="creds" data-reveal>
+      <div class="cred"><span class="footnote">2024 → 2027</span><b>Cycle ingénieur, 5e année</b><span class="subhead">3iL Ingénieurs, Limoges</span></div>
+      <div class="cred"><span class="footnote">2022 → 2024</span><b>Classe préparatoire MPSI</b><span class="subhead">Prépa Saint Jean, Douala</span></div>
+      <div class="cred"><span class="footnote">Janv. 2026</span><b>SecNumacadémie</b><span class="subhead">ANSSI</span></div>
+      <div class="cred"><span class="footnote">Nov. 2025</span><b>Google Cybersecurity Certificate</b><span class="subhead">Google</span></div>
+      <div class="cred"><span class="badge badge--gov badge--fit">En cours</span><b>EBIOS Risk Manager</b><span class="subhead">Méthode d'analyse de risques de l'ANSSI</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CONTACT ================= -->
+<section class="section section--tight" id="contact" aria-labelledby="contact-title">
+  <div class="wrap" data-reveal>
+    <p class="eyebrow">Contact</p>
+    <h2 class="contact__title" id="contact-title">Un stage de 4 à 6 mois dès février 2027 ? <span>Parlons-en.</span></h2>
+    <div class="mail">
+      <a class="mail__addr" href="mailto:mikeallantagne@gmail.com" id="email">mikeallantagne@gmail.com</a>
+      <button class="btn btn--primary" type="button" data-copy>
+        <svg viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="6" y="6" width="9" height="9" rx="2"/><path d="M12 6V4.5A1.5 1.5 0 0 0 10.5 3h-6A1.5 1.5 0 0 0 3 4.5v6A1.5 1.5 0 0 0 4.5 12H6"/></svg>
+        Copier l'adresse
+      </button>
+    </div>
+    <div class="socials">
+      <a class="btn" href="https://www.linkedin.com/in/allan-mike-a49892256" target="_blank" rel="noopener">
+        <svg viewBox="0 0 18 18" fill="currentColor" aria-hidden="true"><path d="M3.6 6.5h2.6V15H3.6zM4.9 2.5a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3zM7.8 6.5h2.5v1.2c.4-.7 1.3-1.4 2.6-1.4 2.7 0 3.2 1.8 3.2 4.1V15h-2.6v-4.1c0-1 0-2.2-1.4-2.2s-1.6 1.1-1.6 2.2V15H7.8z"/></svg>
+        LinkedIn
+      </a>
+      <a class="btn" href="https://github.com/MIKE-TAGNE-3il" target="_blank" rel="noopener">
+        <svg viewBox="0 0 18 18" fill="currentColor" aria-hidden="true"><path d="M9 1.5a7.5 7.5 0 0 0-2.4 14.6c.4.1.5-.2.5-.4v-1.3c-2.1.5-2.5-1-2.5-1-.3-.9-.8-1.1-.8-1.1-.7-.5.1-.5.1-.5.8.1 1.2.8 1.2.8.7 1.2 1.8.8 2.2.6.1-.5.3-.8.5-1-1.7-.2-3.4-.8-3.4-3.7 0-.8.3-1.5.8-2-.1-.2-.3-1 .1-2 0 0 .6-.2 2.1.8a7 7 0 0 1 3.8 0c1.4-1 2.1-.8 2.1-.8.4 1 .2 1.8.1 2 .5.5.8 1.2.8 2 0 2.9-1.7 3.5-3.4 3.7.3.2.5.7.5 1.4v2.1c0 .2.1.5.5.4A7.5 7.5 0 0 0 9 1.5z"/></svg>
+        GitHub
+      </a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="wrap">
+  <div class="foot footnote">
+    <span>Mike Allan Tagne Fotso · Limoges</span>
+    <span>© 2026</span>
+  </div>
+</footer>
+
+<!-- Sheet (project detail) -->
+<div class="scrim" id="scrim" aria-hidden="true"></div>
+<div class="sheet" id="sheet" role="dialog" aria-modal="true" aria-labelledby="sheet-title" inert>
+  <div class="sheet__bar">
+    <span class="sheet__grab" aria-hidden="true"></span>
+    <div class="sheet__handle" aria-hidden="true"></div>
+    <button class="sheet__close" type="button" aria-label="Fermer le projet">
+      <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M3.5 3.5l9 9M12.5 3.5l-9 9"/></svg>
+    </button>
+  </div>
+  <div class="sheet__scroll"><div class="sheet__content" id="sheet-content"></div></div>
+</div>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script src="assets/js/main.js" defer></script>
+</body>
+</html>
