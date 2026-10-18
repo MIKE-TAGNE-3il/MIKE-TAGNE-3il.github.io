@@ -6,30 +6,30 @@
    ========================================================================== */
 
 :root {
-  /* Color — light (system follows prefers-color-scheme). Ratios measured WCAG 2.x */
-  --bg: #F5F5F7;
-  --surface: #FFFFFF;
-  --surface-2: #ECEDF0;
-  --label: #1D1D1F;          /* 15.5:1 */
-  --label-2: #4A4D55;        /*  7.8:1  body copy, AAA */
-  --label-3: #6B6E76;        /*  4.7:1  captions only */
-  --separator: rgba(29, 29, 31, .10);
-  --separator-strong: rgba(29, 29, 31, .18);
-  --accent: #1C66E3;         /*  4.8:1  interactive only */
-  --accent-fill: #1C66E3;
-  --on-accent: #FFFFFF;      /*  5.2:1 */
-  --accent-soft: rgba(28, 102, 227, .10);
-  --gov: #8A5300;            /*  5.8:1  governance only */
-  --gov-soft: rgba(176, 112, 20, .09);
-  --gov-line: rgba(138, 83, 0, .30);
-  --ok: #127A45;
-  --risk: #B4590C;
-  --no: #C2301E;
-  --glass: rgba(250, 250, 252, .72);
-  --glass-edge: rgba(255, 255, 255, .8);
-  --scrim: rgba(10, 12, 16, .36);
-  --shadow-float: 0 1px 1px rgba(0, 0, 0, .04), 0 12px 40px rgba(20, 24, 32, .12);
-  --photo-filter: none;
+  /* Color — single dark look ("Graphite"), same for every visitor. Ratios measured WCAG 2.x */
+  --bg: #0B0C0F;
+  --surface: #17191E;
+  --surface-2: #1F2228;
+  --label: #F2F3F5;        /* 17.6:1 */
+  --label-2: #B4B8C1;      /*  9.8:1 */
+  --label-3: #8C919B;      /*  6.2:1 */
+  --separator: rgba(242, 243, 245, .09);
+  --separator-strong: rgba(242, 243, 245, .17);
+  --accent: #4DA3FF;       /*  7.5:1 */
+  --accent-fill: #4DA3FF;
+  --on-accent: #0B0C0F;    /*  7.5:1 */
+  --accent-soft: rgba(77, 163, 255, .13);
+  --gov: #E8B866;          /* 10.7:1 */
+  --gov-soft: rgba(232, 184, 102, .09);
+  --gov-line: rgba(232, 184, 102, .30);
+  --ok: #5FD39A;
+  --risk: #F2A25C;
+  --no: #FF8C84;
+  --glass: rgba(26, 28, 34, .66);
+  --glass-edge: rgba(255, 255, 255, .10);
+  --scrim: rgba(0, 0, 0, .55);
+  --shadow-float: 0 1px 1px rgba(0, 0, 0, .3), 0 16px 48px rgba(0, 0, 0, .5);
+  --photo-filter: brightness(.9);
 
   /* Type — system font: SF on Apple devices, Segoe on Windows. No webfont. */
   --font: -apple-system, BlinkMacSystemFont, "SF Pro Text", system-ui, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
@@ -61,63 +61,9 @@
   --gutter-l: max(16px, env(safe-area-inset-left, 0px));
   --gutter-r: max(16px, env(safe-area-inset-right, 0px));
   --nav-h: 56px;
-  color-scheme: light;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) {
-    --bg: #0B0C0F;
-    --surface: #17191E;
-    --surface-2: #1F2228;
-    --label: #F2F3F5;        /* 17.6:1 */
-    --label-2: #B4B8C1;      /*  9.8:1 */
-    --label-3: #8C919B;      /*  6.2:1 */
-    --separator: rgba(242, 243, 245, .09);
-    --separator-strong: rgba(242, 243, 245, .17);
-    --accent: #4DA3FF;       /*  7.5:1 */
-    --accent-fill: #4DA3FF;
-    --on-accent: #0B0C0F;    /*  7.5:1 */
-    --accent-soft: rgba(77, 163, 255, .13);
-    --gov: #E8B866;          /* 10.7:1 */
-    --gov-soft: rgba(232, 184, 102, .09);
-    --gov-line: rgba(232, 184, 102, .30);
-    --ok: #5FD39A;
-    --risk: #F2A25C;
-    --no: #FF8C84;
-    --glass: rgba(26, 28, 34, .66);
-    --glass-edge: rgba(255, 255, 255, .10);
-    --scrim: rgba(0, 0, 0, .55);
-    --shadow-float: 0 1px 1px rgba(0, 0, 0, .3), 0 16px 48px rgba(0, 0, 0, .5);
-    --photo-filter: brightness(.9);
-    color-scheme: dark;
-  }
-}
-:root[data-theme="dark"] {
-  --bg: #0B0C0F;
-  --surface: #17191E;
-  --surface-2: #1F2228;
-  --label: #F2F3F5;        /* 17.6:1 */
-  --label-2: #B4B8C1;      /*  9.8:1 */
-  --label-3: #8C919B;      /*  6.2:1 */
-  --separator: rgba(242, 243, 245, .09);
-  --separator-strong: rgba(242, 243, 245, .17);
-  --accent: #4DA3FF;       /*  7.5:1 */
-  --accent-fill: #4DA3FF;
-  --on-accent: #0B0C0F;    /*  7.5:1 */
-  --accent-soft: rgba(77, 163, 255, .13);
-  --gov: #E8B866;          /* 10.7:1 */
-  --gov-soft: rgba(232, 184, 102, .09);
-  --gov-line: rgba(232, 184, 102, .30);
-  --ok: #5FD39A;
-  --risk: #F2A25C;
-  --no: #FF8C84;
-  --glass: rgba(26, 28, 34, .66);
-  --glass-edge: rgba(255, 255, 255, .10);
-  --scrim: rgba(0, 0, 0, .55);
-  --shadow-float: 0 1px 1px rgba(0, 0, 0, .3), 0 16px 48px rgba(0, 0, 0, .5);
-  --photo-filter: brightness(.9);
   color-scheme: dark;
 }
+
 
 @media (prefers-contrast: more) {
   :root {

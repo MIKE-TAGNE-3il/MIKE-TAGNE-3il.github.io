@@ -19,7 +19,7 @@ Chaque projet a son propre lien : `#infrastructure`, `#supervision`, `#authforte
 ## Direction artistique
 
 - **Mood** : précis, calme, confiant.
-- **Couleur** : la page suit le réglage clair/sombre du système. Le bleu est réservé à ce qui est cliquable, l'ambre à la gouvernance. Contrastes WCAG mesurés : texte courant 7,8:1 (clair) et 9,8:1 (sombre), niveau AAA.
+- **Couleur** : thème sombre unique « Graphite », identique pour tous les visiteurs. Le bleu est réservé à ce qui est cliquable, l'ambre à la gouvernance. Contrastes WCAG mesurés : texte principal 17,6:1, texte courant 9,8:1 (AAA).
 - **Typographie** : police système (SF sur Apple, Segoe sur Windows), aucune police téléchargée. Échelle nommée : Display, Large Title, Title 1 à 3, Headline, Body 17/26, Subhead, Footnote, Caption. Monospace système pour les références (ISO, ATT&CK).
 - **Espace** : grille de 8 pt (4 pour les ajustements). Rayons concentriques : carte 28, marge intérieure 12, élément intérieur 16.
 - **Matériau** : le verre (flou + saturation) n'est utilisé que sur la barre de navigation et le bouton de fermeture.
@@ -50,7 +50,7 @@ Navigation clavier complète, lien d'évitement, focus visible, panneau en `role
 ## Contrôle qualité (18 octobre 2026, en local)
 
 Lighthouse mobile et ordinateur : Performance 100, Accessibilité 100, Bonnes pratiques 100, SEO 100. LCP 1,5 s (mobile simulé), CLS 0, TBT 0 ms.
-Aucun débordement horizontal à 390, 820 et 1440 px, en clair comme en sombre.
+Aucun débordement horizontal à 390, 820 et 1440 px.
 
 ## Dette technique
 
